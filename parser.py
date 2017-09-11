@@ -42,7 +42,7 @@ if __name__ == '__main__':
     result = {}
     for letter in letters:
         if letter.sender not in result:
-            result[letter.sender] = 0
+            result[letter.sender] = 1
         else:
             result[letter.sender] += 1
     for k in result:
